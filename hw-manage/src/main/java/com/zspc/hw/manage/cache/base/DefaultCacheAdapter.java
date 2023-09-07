@@ -7,8 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.util.function.Function;
 
 /**
- * @author a01405200
- * @describe 二级缓存模板
+ * 二级缓存模板
  * 数据库层面
  * 一级缓存：caffeine -> l1
  * 二级缓存：redis -> l2

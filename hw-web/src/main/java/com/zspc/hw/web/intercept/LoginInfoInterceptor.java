@@ -24,9 +24,9 @@ public class LoginInfoInterceptor implements HandlerInterceptor {
         }
 
         String requestUrl = request.getRequestURI();
-        String userCode = request.getHeader("x-sf-userid");
-        String userName = request.getHeader("x-sf-username");
-        log.info("LoginInfoInterceptor url {},x-sf-userid {},x-sf-username {}", requestUrl,
+        String userCode = request.getHeader("x-hw-userid");
+        String userName = request.getHeader("x-hw-username");
+        log.info("LoginInfoInterceptor url {},x-hw-userid {},x-hw-username {}", requestUrl,
                 userCode, userName);
 
         if (StrUtil.isBlank(userCode)) {

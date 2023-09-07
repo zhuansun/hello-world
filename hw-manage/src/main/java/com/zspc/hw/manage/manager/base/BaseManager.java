@@ -7,10 +7,6 @@ import com.zspc.hw.common.util.ColumnUtils;
 
 import java.io.Serializable;
 
-/**
- * @author 01404120
- * @date 2021/2/6 13:32
- */
 public interface BaseManager<T extends BaseModel> extends IService<T> {
 
     /**
